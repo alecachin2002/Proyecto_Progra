@@ -13,7 +13,7 @@ $con->close();
 
 if($d->num_rows==1)
 {
-  header('location: contenido.view.php');
+  header('location: maquetacion.html');
 }
 else
 {
